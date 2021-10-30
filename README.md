@@ -1,2 +1,0 @@
-# Sistemas_Transaccionales
-Sistemas_Transaccionales
