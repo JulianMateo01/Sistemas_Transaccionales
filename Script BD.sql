@@ -79,13 +79,15 @@ CREATE
   TABLE tarifa
   (
     idTarifa NUMERIC (12) NOT NULL ,
+	DesTarifa VARCHAR(50) NOT NULL,
     costo BIGINT NOT NULL ,
     idTipo NUMERIC (12) NOT NULL ,
-    CONSTRAINT tarifa_PK PRIMARY KEY CLUSTERED (idTarifa)
+    CONSTRAINT tarifa_PK PRIMARY KEY CLUSTERED (idTarifa, desTarifa)
   );
 CREATE UNIQUE INDEX tarifa_idTarifa_IDX ON tarifa
 (
-  idTarifa ASC
+  idTarifa ASC,
+  desTarifa
 );
 CREATE
   INDEX tarifa_idTipo_IDX ON tarifa
