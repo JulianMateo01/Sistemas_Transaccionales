@@ -8,27 +8,39 @@
 				<form>
 					<div class="input-group form-group">
 						<div class="input-group-prepend col-md-6">
-							<span class="input-group-text ">Marca Vehiculo<i class="fas fa-user"></i></span>
+							<span class="input-group-text ">Nombre<i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="Marca">
+						<input type="text" class="form-control" placeholder="Nombre">
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend col-md-6">
-							<span class="input-group-text" >Placa<i class="fas fa-key"></i></span>
+							<span class="input-group-text" >Apellido<i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="Placas">
+						<input type="password" class="form-control" placeholder="Apellidos">
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend col-md-6">
-							<span class="input-group-text ">Propietario<i class="fas fa-user"></i></span>
+							<span class="input-group-text ">Tipo Documento<i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="Conductor">
+						<input type="text" class="form-control" placeholder="Tipo Doc">
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend col-md-6">
-							<span class="input-group-text" >Tipo Vehiculo<i class="fas fa-key"></i></span>
+							<span class="input-group-text" >Documento<i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="Publico o Privado">
+						<input type="password" class="form-control" placeholder="Documento">
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend col-md-6">
+							<span class="input-group-text" >Direccion<i class="fas fa-key"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="Direccion">
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend col-md-6">
+							<span class="input-group-text" >Telefono<i class="fas fa-key"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="Telefono">
 					</div>
 					<input class="btn btn-succes" type="submit"></input>
 					<br>

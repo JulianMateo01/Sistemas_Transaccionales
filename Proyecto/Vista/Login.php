@@ -67,34 +67,34 @@
 				<table class= "table table-bordered">
 					<thead>
 						<tr>
-						    <th id = '1'></th>
-							<th id = '2'></th>
-							<th id = '3'></th>
-							<th id = '4'></th>
-							<th id = '5'></th>
-							<th id = '6'></th>
-							<th id = '7'></th>
-							<th id = '8'></th>
+						    <th id = '1'>Bahia 1</th>
+							<th id = '2'>Bahia 2</th>
+							<th id = '3'>Bahia 3</th>
+							<th id = '4'>Bahia 4</th>
+							<th id = '5'>Bahia 5</th>
+							<th id = '6'>Bahia 6</th>
+							<th id = '7'>Bahia 7</th>
+							<th id = '8'>Bahia 8</th>
 						</tr>
 						<tr>
-							<th id = '9'></th>
-							<th id = '10'></th>
-							<th id = '11'></th>
-							<th id = '12'></th>
-							<th id = '13'></th>
-							<th id = '14'></th>
-							<th id = '15'></th>
-							<th id = '16'></th>
+							<th id = '9'>Bahia 9</th>
+							<th id = '10'>Bahia 10</th>
+							<th id = '11'>Bahia 11</th>
+							<th id = '12'>Bahia 12</th>
+							<th id = '13'>Bahia 13</th>
+							<th id = '14'>Bahia 14</th>
+							<th id = '15'>Bahia 15</th>
+							<th id = '16'>Bahia 16</th>
 						</tr>
 						<tr>
-							<th id = '17'></th>
-							<th id = '18'></th>
-							<th id = '19'></th>
-							<th id = '20'></th>
-							<th id = '21'></th>
-							<th id = '22'></th>
-							<th id = '23'></th>
-							<th id = '24'></th>
+							<th id = '17'>Bahia 17</th>
+							<th id = '18'>Bahia 18</th>
+							<th id = '19'>Bahia 19</th>
+							<th id = '20'>Bahia 20</th>
+							<th id = '21'>Bahia 21</th>
+							<th id = '22'>Bahia 22</th>
+							<th id = '23'>Bahia 23</th>
+							<th id = '24'>Bahia 24</th>
 						</tr>
 					</thead>
 				</table>

@@ -31,6 +31,12 @@
 						</div>
 						<input type="password" class="form-control" placeholder="Propietario">
 					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend col-md-6">
+							<span class="input-group-text" >Tipo Vehiculo<i class="fas fa-key"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="Publico o Privado">
+					</div>
 					<input class="btn btn-succes" type="submit"></input>
 				</form>
 			</div>
