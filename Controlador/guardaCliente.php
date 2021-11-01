@@ -1,24 +1,27 @@
 <?php
-include("conectabd.php");
+ include("../conectabd.php");
 
-if (isset($_POST['GuardaCliente'])){
-    $clienteDoc= $_POST['documento'];
-    $clienteNombres= $_POST['nombres'];
-    $clienteApellidos = $_POST['apellidos'];
-    $clienteDireccion = $_POST['direccion'];
-    $clienteTelefono = $_POST['Telefono'];
-    $clienteVehi = $_POST['vehiculo'];
-    $clienteFirma = $_POST['firma'];
+if (isset($_POST['guardaCliente'])){
+    $clienteRegistro = $_POST['IDCliente']; 
+    $clienteDoc = $_POST['docCliente'];
+    $clienteNombre = $_POST['nombresCliente'];
+    $clienteApellido = $_POST['apellidosCliente'];
+    $clienteDireccion = $_POST['direccionCliente'];
+    $clienteTelefono = $_POST['telefonoCliente'];
+    $clienteTipo = $_POST['tipoDoc'];
 
+    $clienteNew = "INSERT INTO persona (idPersona, nombre, apellido, documento, tipoDoc, direccion, telefono) VALUES ($clienteRegistro, '$clienteNombre', '$clienteApellido', '$clienteDoc', '$clienteTipo', '$clienteDireccion', $clienteTelefono)";
+    
 
-    $clienteNew = "INSERT INTO clientes(documento,nombres,apellidos,direccion,telefono,vehiculo,firma)Values ('$documento','$nombres','$apellidos','$direccion','$telefono','$vehiculo','$firma') ";
-    $ClienteNew = mysqli_query($conn,$clienteNew);
+    if (mysqli_query($conn, $clienteNew)) {
+        
+        
+        header("Status: 301 Moved Permanently");
+        header("Location: http://localhost/proyectoParqueadero/Vistas/ConsultaCliente.php");
+        exit;
 
-    if(!$ClienteNew){
-        die("El registro del cliente no pudo ser completado");
+        } else {
+        echo "Error: " . $clienteNew . "<br>" . mysqli_error($conn);
+        }
     }
-
-}
-
-
 ?>
