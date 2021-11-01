@@ -17,13 +17,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="http://localhost/proyectoParqueadero/Vistas/Registro.php">Registrar</a>
+          <a class="nav-link" href="http://localhost/proyectoParqueadero/Vistas/Registro.php">Registrar Persona</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://localhost/proyectoParqueadero/Vistas/ConsultaCliente.php">Consulta</a>
+          <a class="nav-link" href="http://localhost/proyectoParqueadero/Vistas/RegistroVehiculo.php">Registrar Vehiculo</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://localhost/proyectoParqueadero/Vistas/Vehiculo.php">Vehiculos</a>
+          <a class="nav-link" href="http://localhost/proyectoParqueadero/Vistas/ConsultaCliente.php">Consulta Persona</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost/proyectoParqueadero/Vistas/ConsultaVehiculo.php">Consulta Vehiculo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost/proyectoParqueadero/Vistas/Vehiculo.php">Consulta por placa</a>
         </li>
       </ul>
       <form class="d-flex">
