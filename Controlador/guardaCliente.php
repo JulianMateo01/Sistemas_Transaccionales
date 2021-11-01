@@ -14,12 +14,9 @@ if (isset($_POST['guardaCliente'])){
     
 
     if (mysqli_query($conn, $clienteNew)) {
-        
-        
         header("Status: 301 Moved Permanently");
         header("Location: http://localhost/proyectoParqueadero/Vistas/ConsultaCliente.php");
         exit;
-
         } else {
         echo "Error: " . $clienteNew . "<br>" . mysqli_error($conn);
         }

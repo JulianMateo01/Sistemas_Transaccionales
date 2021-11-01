@@ -1,19 +1,24 @@
 <?php
-include("conectabd.php");
+include("../conectabd.php");
 
 if (isset($_POST['GuardaCar'])){
-    $PlacaVehi= $_POST['placa'];
-    $MarcaVehi= $_POST['marca'];
-    $TipoVehi = $_POST['tipo'];
+    $idVehiculo = $_POST['IDVehiculo'];
+    $PlacaVehi= $_POST['placaVehi'];
+    $MarcaVehi= $_POST['marcaVehi'];
+    $CodDueño = $_POST['dueñoVehi'];
+    $TipoVehi = $_POST['tipoVehi'];
 
-    $carNew = "INSERT INTO vehiculos(placa,marca,tipo)Values ('$PlacaVehi', '$MarcaVehi' , '$TipoVehi') ";
-    $registroNew = mysqli_query($conn,$carNew);
+    $carNew = "INSERT INTO vehiculo (idVehiculo, marca, placa, idPersona, idTipo) VALUES ($idVehiculo, '$MarcaVehi', '$PlacaVehi', $CodDueño, $TipoVehi)";
 
-    if(!$registroNew){
-        die("El registro no pudo ser completado");
+    if (mysqli_query($conn, $carNew)) {
+        header("Status: 301 Moved Permanently");
+        header("Location: http://localhost/proyectoParqueadero/Vistas/ConsultaVehiculo.php");
+        exit;
+        } else {
+        echo "Error: " . $carNew . "<br>" . mysqli_error($conn);
+        }
     }
 
-}
 
 
 ?>
