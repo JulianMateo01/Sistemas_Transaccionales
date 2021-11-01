@@ -10,19 +10,13 @@
 			<div class="card-body">
 				<form>
 					<div class="input-group form-group">
-						<div class="input-group-prepend col-md-6">
-							<span class="input-group-text ">Documento Usuario<i class="fas fa-user"></i></span>
-						</div>
-						<input type="text" class="form-control" placeholder="Cedula o pasaporte">
-						
-					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend col-md-6">
 							<span class="input-group-text" >Vehiculo <i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="Placas Vehiculo">
+						<input type="text" class="form-control" placeholder="Placas Vehiculo" name='placabuscar'>
 					</div>
-					<input class="btn btn-succes" type="submit">Consultar</input>
+					<input class="btn btn-succes" type="submit" value="consulta" name="consultaVehiculo"></input>
 				</form>
 			</div>
 			<div class="card-footer">
@@ -31,9 +25,7 @@
                    
 				</div>
 				<div class="d-flex justify-content-center">
-                    <a href="#">* Registro </a> 
-                    <br/> 
-					<a href="#">* Vehiculo </a>
+					<a href="http://localhost/proyectoParqueadero/Vistas/RegistroVehiculo.php"> Vehiculo </a>
 				</div>
 			</div>
 		</div>

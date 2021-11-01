@@ -51,7 +51,7 @@
 						</div>
 						<input type="text" class="form-control" placeholder="Telefono" name="telefonoCliente">
 					</div>
-					<input class="btn btn-succes" type="submit" name="guardaCliente">Consultar</input>
+					<input class="btn btn-succes" type="submit" name="guardaCliente"></input>
 				</form>
 			</div>
 			</div>

@@ -2,9 +2,10 @@
 <?php include("../includes/header.php") ?>
 
 <div class="card-header">
-	<h3>PERSONAS</h3>
+	<h3>Parqueaderos</h3>
 </div>
 
+    
 <div class="col-mb-8">
 	<table class="table table-bordered">
 		<thead>
@@ -21,10 +22,11 @@
 		</thead>
 		<tbody>
 			<?php
-			
-				$query = "CALL datper();";
+                if (isset($_POST['consulta'])){
+                    $documento = $_POST['documento'];
+                }
+				$query = "CALL datperID($documento);";
 				$RESULT_ = mysqli_query($conn, $query);
-			
 			while ($row = mysqli_fetch_array($RESULT_)) { ?>
 				<tr>
 					<td><?php echo $row['idPersona'] ?></td>
