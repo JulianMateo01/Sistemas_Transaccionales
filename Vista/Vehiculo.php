@@ -1,3 +1,5 @@
+<?php include("../conectabd.php") ?>
+<?php include("../includes/header.php") ?>
 
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
@@ -39,3 +41,4 @@
 </div>
 
 
+<?php include("../includes/footer.php") ?>
