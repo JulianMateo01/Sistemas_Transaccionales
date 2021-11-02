@@ -3,7 +3,7 @@ Leeme
 1. Descargar el zip
 2. Descargar el archivo parking1.sql
 2. Descomprimir el zip
-3. Copiar la carpeta en C:\xampp\htdocs\
+3. Copiar la carpeta "proyectoParqueadero" en C:\xampp\htdocs\
 4. Ejecutar el XAMPP o entorno
 5. Abrir el phpmyadmin
 6. Crear la BD parking
