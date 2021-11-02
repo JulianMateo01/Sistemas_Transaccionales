@@ -1,0 +1,11 @@
+Leeme
+
+1. Descargar el zip
+2. Descargar el archivo parking.sql
+2. Descomprimir el zip
+3. Copiar la carpeta en C:\xampp\htdocs\
+4. Ejecutar el XAMPP o entorno
+5. Abrir el phpmyadmin
+6. Crear la BD parking
+7. Importar la BD parking.sql anteriormente descargada
+8. Abrir  el programa con la URL http://localhost/proyectoParqueadero/index.php
