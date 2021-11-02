@@ -1,7 +1,7 @@
 Leeme
 
 1. Descargar el zip
-2. Descargar el archivo parking.sql
+2. Descargar el archivo parking1.sql
 2. Descomprimir el zip
 3. Copiar la carpeta en C:\xampp\htdocs\
 4. Ejecutar el XAMPP o entorno
